@@ -1,0 +1,84 @@
+body{
+    font-family: 'Open Sans',sans-serif;
+    background: linear-gradient(to right, rgba(0,0,0,1),rgba(255,255,255, 1));
+}
+
+#housie{
+    width: 1200px;
+    height: 680px;
+    background-color: white;
+    margin: 0 auto;
+    top: 20px;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#functions{
+    text-align: center;
+    height: 25px;
+    font-size: 25px;
+    float: bottom;
+}
+
+#output{
+    text-align: center;
+    height: 60px;
+    margin: 0 20px;
+    font-size: 50px;
+}
+
+#keyboard{
+    height: 500px;
+}   
+
+.number{
+    width: 79px;
+    height: 20px;
+    margin: 20px;
+    float: left;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.number:active{
+    font-size: 15px;
+}
+
+.empty{
+    width: 100px;
+    opacity: 0;
+}
+
+.arrow{
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+  
+.right{
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+  
+.left{
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+  
+.up{
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}
+  
+.down{
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.operator{
+    height: 50px;
+}
